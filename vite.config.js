@@ -14,7 +14,7 @@ export default defineConfig({
     },
     proxy: {
       '^/api': {
-        target: 'http://api-service.backend.svc.cluster.local:5000',
+        target: 'http://api-backend-svc.api-backend-argocd.svc.cluster.local:80',
         // target: 'http://api:5000',
         changeOrigin: true
       }
