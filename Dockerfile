@@ -17,6 +17,7 @@ EXPOSE 5173
 
 # Establece las variables de entorno VITE_HOST y VITE_PORT
 ENV VITE_HOST=0.0.0.0
+
 ENV VITE_PORT=5173
 
 # Inicia la aplicación con el comando predeterminado de npm start
