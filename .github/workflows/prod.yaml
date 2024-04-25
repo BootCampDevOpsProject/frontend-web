@@ -1,4 +1,4 @@
-name: ci-Dev-frontend
+name: ci-prod-frontend
 on:
   push:
     branches: [ "main" ]
