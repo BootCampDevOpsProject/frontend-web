@@ -67,7 +67,7 @@ jobs:
       
       - name: Update Kubernetes resources - frontend
         run: |
-          cd Frontend/web-frontend/overlays/production
+          cd Frontend/web-frontend-prod/overlays/production
           kustomize edit set image serret18/web-frontend-production=serret18/web-frontend-production:${{ github.sha }}
       
       - name: Commit files
