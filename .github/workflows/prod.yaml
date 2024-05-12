@@ -117,3 +117,4 @@ jobs:
           channel: '#ci-alerts'
           message: El Scaneo de codigo en produccion termino con exito.
         if: success()
+        
